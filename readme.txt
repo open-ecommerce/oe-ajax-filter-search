@@ -1,18 +1,12 @@
-=== Ajax Filter Search ===
-Contributors: longislandfreelancewebdesigner
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=34C7NUYWTVYFA
-Tags: ajax search, ajax filter, search posts, search using ajax, filter posts by year, filter posts by month, filter posts by date, pagination using ajax, display posts in table format, custom post type search
-Requires at least: 3.6
-Stable tag: 1.0.3
-Tested up to: 4.5.3
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+=== Forked by oe to adapt to simpler scenarios ===
 
+
+=== Ajax Filter Search ===
 Displays posts or custom post types in a friendly, filterable format using ajax so there's no page reload!
 
 == Description ==
 
-Ajax Filter Search is a small but powerful plugin that displays your post or custom post type in a tabled format with pagination, all using ajax so there's no page reload! 
+Ajax Filter Search is a small but powerful plugin that displays your post or custom post type in a tabled format with pagination, all using ajax so there's no page reload!
 
 A user can filter your posts by search keyword, month, year, and category to get the exact content they're looking for. This is a great tool for anyone looking to show a reel of Press Releases, Blog Posts, Upcoming Events, whatever you can think of!
 
@@ -28,7 +22,7 @@ A user can filter your posts by search keyword, month, year, and category to get
     [ajax_filter_search filter_by="category-slug-1,category-slug2"]
 
 ***
-   
+
 
 = Tested Browsers =
 
@@ -53,7 +47,7 @@ Your ratings make a big difference! If you like and use Ajax Filter Search, plea
 
 1. Copy the shortcode [ajax_filter_search]
 2. Add the shortcode to your page, by adding it through the content editor or placing it directly within one of your template files.
-3. Load a page with your shortcode in place and watch Ajax Filter Search fetch your posts. 
+3. Load a page with your shortcode in place and watch Ajax Filter Search fetch your posts.
 
 = Is it possible to only display post from 1 or 2 categories? =
 
@@ -95,38 +89,3 @@ How to install Ajax Filter Search.
 2. Extract the `ajax-filter-search` directory to your computer
 3. Upload the `ajax-filter-search` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
-
-
-== Screenshots ==
-
-1. Overview of AFS in action. Here you see search filters, the post reel, pagination capabilities and dual reel views (List & Grid)
-2. See how a user can instantly improve their search experience by filtering out the most relevant content for them.
-3. "Summary" buttons pull the excerpt from the post so they can view a teaser of the content for that particular post
-4. Grid View
-5. Settings panel where you can choose a post type (including custom post types) and an optional taxonomy among other options. New features coming soon!
-6. Optional Filter Tabs at the top of the reel to filter results by category.
-
-
-== Changelog ==
-
-= 1.0.3 =
-* Function / Structure Improvements
-* Bug fixes to address Page loop error.
-* Added a template capability to the loop to allow for customization in the future.
-* Added "filter_by" attritbute to the shortcode to allow for selected categories in the loop
-* Began ground work for color selection options in settings page
-
-= 1.0.2 =
-* Update to test Version #
-
-= 1.0.1 =
-* CSS Edits, A Few Bug Fixes, Added Screenshots, Robots text edits, Compiled SCSS files
-
-= 1.0.0 =
-* Ajax Filter Search
-
-== Upgrade Notice ==
-
-* None 
-
-
