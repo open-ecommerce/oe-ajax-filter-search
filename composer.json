@@ -1,0 +1,17 @@
+{
+  "name": "open-ecommerce/oe-ajax-filter-search",
+  "description": "Filter by category and content",
+  "keywords": ["wordpress", "plugin", "tango", "custom type"],
+  "homepage": "http://www.open-ecommerce.org",
+  "license": "GPL3",
+  "authors": [
+    {
+      "name": "open-ecommerce.org",
+      "email": "info@open-ecommerce.org",
+      "homepage": "http://www.open-ecommerce.org"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+  }
+}
