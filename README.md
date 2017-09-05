@@ -1,9 +1,12 @@
+=== Forked by oe to adapt to simpler scenarios ===
+
+
 === Ajax Filter Search ===
 Displays posts or custom post types in a friendly, filterable format using ajax so there's no page reload!
 
 == Description ==
 
-Ajax Filter Search is a small but powerful plugin that displays your post or custom post type in a tabled format with pagination, all using ajax so there's no page reload! 
+Ajax Filter Search is a small but powerful plugin that displays your post or custom post type in a tabled format with pagination, all using ajax so there's no page reload!
 
 A user can filter your posts by search keyword, month, year, and category to get the exact content they're looking for. This is a great tool for anyone looking to show a reel of Press Releases, Blog Posts, Upcoming Events, whatever you can think of!
 
@@ -19,7 +22,7 @@ A user can filter your posts by search keyword, month, year, and category to get
     [ajax_filter_search filter_by="category-slug-1,category-slug2"]
 
 ***
-   
+
 
 = Tested Browsers =
 
@@ -44,7 +47,7 @@ Your ratings make a big difference! If you like and use Ajax Filter Search, plea
 
 1. Copy the shortcode [ajax_filter_search]
 2. Add the shortcode to your page, by adding it through the content editor or placing it directly within one of your template files.
-3. Load a page with your shortcode in place and watch Ajax Filter Search fetch your posts. 
+3. Load a page with your shortcode in place and watch Ajax Filter Search fetch your posts.
 
 = Is it possible to only display post from 1 or 2 categories? =
 
